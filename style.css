@@ -1,0 +1,884 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+#home{
+    height: 1080px;
+    max-width: 100%;
+}
+
+.navbar{
+    font-family: 'Orbitron', sans-serif; 
+    --bs-bg-opacity: .9;
+    position: fixed;
+    z-index: 9999;
+}
+
+.navbar-brand{
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: -2%;
+    margin-left: 10%;
+}
+
+#lau{
+    color: rgb(0, 0, 0);
+    margin-left: -17%;
+    position: fixed;
+}
+
+#mod{
+    color: rgb(0, 0, 0);
+    margin-left: -7%;
+    position: fixed;
+}
+
+#eve{
+    color: rgb(0, 0, 0);
+    margin-left: -1%;
+    position: fixed;
+}
+
+#dea{
+    color: rgb(0, 0, 0);
+    margin-left: 5%;
+    position: fixed;
+}
+
+#con{
+    color: rgb(0, 0, 0);
+    margin-left: 11%;
+    position: fixed;
+    
+}
+
+#flex{
+    margin-right:  -260%;
+    margin-top: 5%;
+    height: 40px;
+}
+
+#lau:hover{
+    font-size: 18px;
+    color: red;
+}
+
+#mod:hover{
+    font-size: 18px;
+    color: red;
+}
+
+#eve:hover{
+    font-size: 18px;
+    color: red;
+}
+
+#dea:hover{
+    font-size: 18px;
+    color: red;
+}
+
+#con:hover{
+    font-size: 18px;
+    color: red;
+}
+
+#strt{
+    height: 955px;
+}
+
+#imga{
+    margin-left: 6%;
+    width: 955px;
+}
+
+#fhed{
+    position: absolute; 
+    top: 300px; 
+    padding-left: 58%; 
+    font-family: 'Orbitron', sans-serif;
+}
+
+#fpar{
+    position: absolute; 
+    top: 400px; 
+    padding-left: 58%;
+    font-size: 20px;
+    width: 1750px;
+}
+
+#imgb{
+    margin-top: 10%;
+    width: 1200px;
+}
+
+#shed{
+    position: absolute; 
+    top: 300px; 
+    padding-left: 59%; 
+    font-family: 'Orbitron', sans-serif;
+}
+
+#spar{
+    position: absolute; 
+    top: 400px; 
+    padding-left: 59%;
+    font-size: 20px;
+    width: 1740px;
+}
+
+/* Second page*************************************************************************************************** */
+
+#models{
+    height: 1080px;
+    max-width: 100%;
+}
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+    color: red;
+    text-align: center;
+    padding-top: 6%;
+}
+
+#carouselExampleAutoplaying{
+    margin-top: 10%;
+}
+
+#rowa{
+    margin-left: 10%;
+}
+
+#imgx{
+    width: 400px;
+}
+
+#heda{
+    color: rgb(0, 0, 0);
+    margin-left: 17%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hedb{
+    color: rgb(0, 0, 0);
+    margin-left: 28%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hedc{
+    color: rgb(0, 0, 0);
+    margin-left: 16%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hedd{
+    color: rgb(0, 0, 0);
+    margin-left: 19%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hede{
+    color: rgb(0, 0, 0);
+    margin-left: 25%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hedf{
+    color: rgb(0, 0, 0);
+    margin-left: 12%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#bix{
+    margin-top: -10%;
+}
+
+#cola{
+    height: 650px;
+    padding-top: 10%;
+    
+}
+
+#imgx:hover{
+    width: 500px;
+    margin-left: -10%;
+    margin-top: -5%; 
+}
+
+/* thd page88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+
+#events{
+    height: 1080px;
+    max-width: 100%;
+}
+
+#rowb{
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+#ifrma{
+    width: 500px;
+    height: 280px;
+}
+
+#ifrma:hover{
+    width: 550px;
+    height: 300px;
+    margin-left: -5%;
+    margin-top: -1.5%;
+}
+
+
+/* forthpg............................................................................................................................................. */
+
+#dealers{
+    height: 1080px;
+    max-width: 100%;
+}
+
+#rowc{
+    margin-top: -8%;
+    padding: 300px;
+}
+
+#map{
+    margin-top: -12%;
+    margin-left: 29%;
+    width: 800px;
+    height: 400px;
+}
+
+#map:hover{
+    margin-top: -13%;
+    margin-left: 28%;
+    width: 850px;
+    height: 450px;
+}
+
+/* fifth page88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+
+#contact{
+    height: 900px;
+    max-width: 100%;
+}
+
+.sicon{
+    display: flex;
+    flex-direction: row;
+    margin-top: -10%;
+}
+
+#ww{
+    margin-left: 570%;
+}
+
+#qq{
+    margin-left: 10%;
+}
+
+
+#ee{
+    margin-left: 10%;
+}
+
+
+
+#footer{
+    margin-top: 18%;
+    background-color: rgb(161, 161, 161);
+}
+
+/* rsponsive/////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 1280px){
+
+    #home{
+        height: 720px;
+        max-width: 100%;
+    }
+
+    #imga{
+        margin-left: 6%;
+        width: 632px;
+    }
+
+    #imgl{
+        width: 40px;
+        margin-top: -5%;
+    }
+
+    #hedx{
+        font-size: 18px;
+        margin-top: -1%;
+    }
+
+    .navbar-nav{
+        margin-left: 0%;
+        margin-top: -5%;
+    }
+
+    #flex{
+        margin-right: -200%;
+    }
+
+    #serch{
+        height: 30px;
+        width: 180px;
+        font-size: 13px;
+    }
+
+    #btn1{
+        height: 30px;
+        width: 80px;
+        font-size: 13px;
+    }
+
+    #lau{
+        margin-left: -19%;
+        font-size: 13px;
+    }
+    
+    #mod{
+        margin-left: -8%;
+        font-size: 13px;
+    }
+    
+    #eve{
+        margin-left: -1%;
+        font-size: 13px;
+    }
+    
+    #dea{
+        margin-left: 6%;
+        font-size: 13px;
+    }
+    
+    #con{
+        margin-left: 13%;   
+        font-size: 13px;
+    }
+
+    #lau:hover{
+        font-size: 14px;
+    }
+    
+    #mod:hover{
+        font-size: 14px;
+    }
+    
+    #eve:hover{
+        font-size: 14px;
+    }
+    
+    #dea:hover{
+        font-size: 14px;
+    }
+    
+    #con:hover{
+        font-size: 14px;
+    }
+
+    #strt{
+        height: 632px;
+    }
+
+    #imga{
+        margin-left: 6%;
+    }
+    
+    #fhed{
+        top: 200px; 
+        padding-left: 56%;
+        font-size: 26px;
+    }
+    
+    #fpar{
+        top: 260px; 
+        padding-left: 56%;
+        font-size: 14px;
+        width: 1160px;
+    }
+    
+    #imgb{
+        margin-top: 10%;
+        width: 800px;
+    }
+    
+    #shed{
+        top: 200px; 
+        padding-left: 58%;
+        font-size: 26px; 
+    }
+    
+    #spar{
+        top: 260px; 
+        padding-left: 58%;
+        font-size: 14px;
+        width: 1150px;
+    }
+
+    /* secnd /////////////////////////////////////////////////////////////////////////////////////////// */
+
+    #models{
+        height: 720px;
+        max-width: 100%;
+    }
+
+    h1{
+        margin-top: 6%;
+        font-size: 30px;
+    }
+
+    #rowa{
+        margin-left: 8%;
+    }
+    
+    #imgx{
+        width: 280px;
+    }
+    
+    #heda{
+        margin-left: 20%;
+        font-size: 20px;
+    }
+    
+    #hedb{
+        margin-left: 30%;
+        font-size: 20px;
+    }
+    
+    #hedc{
+        margin-left: 20%;
+        font-size: 20px;
+    }
+    
+    #hedd{
+        margin-left: 20%;
+        font-size: 20px;
+    }
+    
+    #hede{
+        margin-left: 28%;
+        font-size: 20px;
+    }
+    
+    #hedf{
+        margin-left: 18%;
+        font-size: 20px;
+    }
+
+    #cola{
+        margin-top: 15%;
+    }
+
+    #bix{
+
+        margin-top: -28%;
+    }
+    
+    #imgx:hover{
+        width: 330px;
+    }
+
+    #events{
+        height: 720px;
+        max-width: 100%;
+    }
+    
+    #rowb{
+        margin-left: 4%;
+        margin-top: 10%;
+    }
+
+    /* third//////////////////////////////////////////////////////////////////////////// */
+
+    #events{
+        height: 720px;
+        max-width: 100%;
+    }
+
+    #rowb{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    #ifrma{
+        width: 300px;
+        height: 170px;
+    }
+
+    #ifrma:hover{
+        width: 330px;
+        height: 180px;
+    }
+    
+    /* forth////////////////////////////////////////////////////////////////////////// */
+
+    #dealers{
+        height: 720px;
+        max-width: 100%;
+    }
+
+    #rowc{
+        margin-top: -20%;
+        padding: 300px;
+    }
+    
+    #map{
+        margin-top: -30%;
+        margin-left: 29%;
+        width: 500px;
+        height: 250px;
+    }
+
+    #map:hover{
+        margin-top: -21%;
+        margin-left: 28%;
+        width: 530px;
+        height: 280px;
+    }
+
+    /* fifth//////////////////////////////////////////////////////////////////////////////////////////////// */
+
+    #contact{
+        height: 400px;
+        max-width: 100%;
+    }
+
+    #ww{
+        margin-left: 360%;
+    }
+    
+    #qq{
+        margin-left: 10%;
+    }
+    
+    
+    #ee{
+        margin-left: 10%;
+    }
+    
+    #footer{
+        margin-top: 15%;
+        background-color: rgb(59, 59, 59);
+    }
+   
+    #conhed{
+        margin-bottom: -13%;
+    }
+
+
+}
+
+@media (max-width: 414px){
+
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    body{
+        overflow-x: visible;
+    }
+
+    #home{
+        height: 900px;
+        max-width: 100%;
+    }
+
+    .navbar{
+        overflow-x: visible;
+    }
+
+    .container-fluid{
+        overflow-x: visible;
+    }
+
+    .navbar-nav{
+        margin-top: 4%;
+    }
+
+    .navbar-brand{
+        margin-left: -1%;
+        margin-top: 1%;
+        overflow-x: visible;
+    }
+
+    #imgl{
+        width: 40px;
+    }
+
+    #hedx{
+        font-size: 18px;
+        margin-top: 2%;
+
+    }
+
+    #flex{
+        margin-right: -18%;
+        margin-top: 7%;
+        overflow-x: visible;
+    }
+
+    #serch{
+        height: 18px;
+        width: 120px;
+        font-size: 10px;
+        overflow-x: visible;
+    }
+
+    #btn1{
+        height: 18px;
+        width: 60px;
+        font-size: 10px;
+        overflow-x: visible;
+    }
+
+    #sercbtn{
+        margin-left: -20%;
+        margin-top: -15%;
+        overflow-x: visible;
+    }
+
+    .nav-link{
+        margin-top: 5%;
+    }
+
+    #lau{
+        margin-left: -38%;
+        font-size: 12px;
+    }
+    
+    #mod{
+        margin-left: -10%;
+        font-size: 12px;
+    }
+    
+    #eve{
+        margin-left: 5%;
+        font-size: 12px;
+    }
+    
+    #dea{
+        margin-left: 20%;
+        font-size: 12px;
+    }
+    
+    #con{
+        margin-left: 35%;   
+        font-size: 12px;
+    }
+
+    #lau:hover{
+        font-size: 13px;
+    }
+    
+    #mod:hover{
+        font-size: 13px;
+    }
+    
+    #eve:hover{
+        font-size: 13px;
+    }
+    
+    #dea:hover{
+        font-size: 13px;
+    }
+    
+    #con:hover{
+        font-size: 13px;
+    }
+
+    #carouselExampleFade{
+        margin-top: 10%;
+    }
+
+    .carousel-item{
+        height: 800px;
+    }
+
+
+    #imga{
+        width: 350px;
+        margin-left: 8%;
+        margin-top: 15%;
+    }
+
+    #fhed{
+        top: 300px; 
+        padding-left: 18%;
+        font-size: 26px;
+        margin-top: 20%;
+    }
+    
+    #fpar{
+        text-align: center;
+        top: 350px; 
+        padding-left: 15%;
+        font-size: 14px;
+        width: 360px;
+        margin-top: 20%;
+    }
+    
+    #imgb{
+        margin-top: 33%;
+        width: 425px;
+    }
+    
+    #shed{
+        top: 300px; 
+        padding-left: 8.5%;
+        font-size: 26px; 
+        margin-top: 20%;
+    }
+    
+    #spar{
+        text-align: center;
+        top: 350px; 
+        padding-left: 15%;
+        font-size: 14px;
+        width: 360px;
+        margin-top: 20%;
+    }
+
+    #strt{
+        height: 800px;
+    }
+
+    /* second/////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+    #models{
+        height: 900px;
+        max-width: 100%;
+    }
+
+    h1{
+        margin-top: 20%;
+    }
+
+    #carouselExampleAutoplaying{
+        margin-top: -15%;
+        overflow-x: visible;
+    }
+
+    #bix{
+        height: 900px;
+        margin-top: -12%;
+        overflow-x: visible;
+    }
+
+    #cola{
+        height: 900px;
+        overflow-x: visible;
+    }
+
+    #rowa{
+        height: 800px;
+        overflow-y: hidden;
+        margin-top: 2%;
+    }
+
+    #imgx{
+        margin-left: 8%;
+
+    }
+
+    #imgx:hover{
+        width: 280px;
+        margin-left: 6.5%;
+        margin-top: 0.5%;
+    }
+
+    .ima{
+        margin-bottom: -10%;
+    }
+
+    .imb{
+        margin-top: -350%;
+    }
+
+    .imc{
+        margin-top: -750%;
+    }
+
+    .hea{
+        margin-top: 14%;
+        padding-left: 9%;
+    }
+
+    .heb{
+        margin-top: -150%;
+        padding-left: 6%;
+    }
+
+    .hec{
+        margin-top: -350%;
+        padding-left: 6%;
+    }
+
+    /* third///////////////////////////////////////////////////////////////////////////////// */
+
+    #events{
+        height: 900px;
+        max-width: 100%;
+    }
+
+    #rowb{
+        overflow-x: visible;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    #ifrma{
+        width: 300px;
+        height: 170px;
+        overflow-x: visible;
+        padding: 5%;
+        margin-top: 10%;
+    }
+
+    /* fourth////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+    #dealers{
+        height: 900px;
+        max-width: 100%;
+    }
+
+    #rowc{
+        margin-top: 16%;
+        padding: 40px;
+    }
+    
+    #map{
+        margin-top: 10%;
+        margin-left: 15%;
+        width: 300px;
+        height: 400px;
+    }
+    
+    #map:hover{
+        margin-top: 10%;
+        margin-left: 15%;
+        width: 300px;
+        height: 400px;
+    }
+
+    /* ////////////////////////////////// */
+
+    #contact{
+        height: 900px;
+        max-width: 100%;
+    }
+
+}
